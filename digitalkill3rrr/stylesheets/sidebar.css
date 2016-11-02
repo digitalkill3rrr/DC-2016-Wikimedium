@@ -32,7 +32,7 @@
   opacity: 1;
 }
 
-.sidebar > ul > li:first-child {
+.sidebar > ul > li:first-child > a {
   margin-top: 10px;
   font-weight: bold;
 }
