@@ -1,10 +1,6 @@
 .mainSection {
+  position: relative;
   height: 800px;
-}
-
-.mainSection section {
-  position: absolute;
-  margin: 147px 0 0 160px;
 }
 
 .mainSection h2 {
@@ -19,9 +15,48 @@
   line-height: 38px;
 }
 
+.mainSection.center {
+  text-align: center;
+}
+
+.mainSection.center h2 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.mainSection.center p {
+  margin-top: 27px;
+}
+
+.mainSection.center section {
+  width: 100%;
+}
+
+.mainSection section {
+  position: absolute;
+  top: 147px;
+  width: 580px;
+}
+
+.mainSection.left section {
+  left: 160px;
+}
+
+.mainSection.right section {
+  right: 160px;
+}
+
 .mainSection section figure {
   width: 210px;
   height: 20px;
   margin-top: 100px;
-  background: green;
+  background-image: url(../images/landing/pattern.svg);
+}
+
+.mainSection.left section figure {
+  margin-left: -60px;
+}
+
+.mainSection.right section figure {
+margin-left: 430px;
 }
